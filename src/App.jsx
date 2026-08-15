@@ -13,7 +13,7 @@ import ProductsDetails from './Components/products/ProductDetails'
 import Checkout from './Components/Checkout'
 import Users from './Components/users/Users'
 import UserDetails from './Components/users/UserDetails'
-import Inventory from './Components/Inventory/Inventory'
+import Inventory from "../src/Components/inventory/Inventory"
 import CartManagement from './Components/CartManagement'
 
 
