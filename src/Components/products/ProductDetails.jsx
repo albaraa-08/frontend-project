@@ -211,26 +211,6 @@ export default function ProductsDetails() {
             Buy Now
           </Button>
 
-          <div className="p-2 border rounded bg-light d-flex gap-2 mb-4">
-            <Button
-              variant="warning"
-              size="sm"
-              className="w-50"
-              disabled={!isAdmin}
-              title={!isAdmin ? "Admin required" : ""}
-            >
-              Edit Product
-            </Button>
-            <Button
-              variant="danger"
-              size="sm"
-              className="w-50"
-              disabled={!isAdmin}
-              title={!isAdmin ? "Admin required" : ""}
-            >
-              Delete Product
-            </Button>
-          </div>
 
           <Row className="g-2 pt-2 border-top text-muted small">
             <Col xs={6} className="d-flex align-items-center gap-2">
